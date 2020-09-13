@@ -37,8 +37,8 @@
                 <small>Tu es sûr ? </small>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Non</button>
-                <a href="">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Non</button>
+                <a href="?action=supprimerAssociation&associationId='<?php echo $association->getIdAssociation(); ?>'">
                   <button type="button" class="btn btn-danger">Oui</button>
                 </a>
               </div>

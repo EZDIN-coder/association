@@ -39,7 +39,7 @@ class Model
 			die('OUPS!!!!!');
 		}
 		
-		header("Location: index.php");
+		header("Location: index.php?action=association");
 	}
 	
 	public function findAll($table)

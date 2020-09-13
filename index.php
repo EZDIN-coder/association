@@ -36,7 +36,10 @@
 		}
 		elseif($_GET['action'] == 'modificationAssociation'){
 			$association->voirAssociationAModifier($_GET['associationId']);
-	}else{
+		}
+		elseif($_GET['action'] == 'supprimerAssociation'){
+			$association->delete($_GET['associationId']);
+		}else{
 		/* Afficcher la liste des conducteurs*/
 		$conducteur->listConducteur();
 
